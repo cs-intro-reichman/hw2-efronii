@@ -2,5 +2,19 @@
 public  class  TestRandom {
 	public static void main(String[]  args) {
 	    // Replace this comment with your code
+		int it = Integer.parseInt(args[0]);
+		int s =0;
+		int l =0;
+		for (int i=0;i<it;i++){
+			if(Math.random()>=0.5){
+				s ++;
+			}else {
+				l++;
+			}
+		}
+		float r = s/(float)l;
+		System.out.println("> 0.5: "+s+" times " );
+		System.out.println("<= 0.5: "+l+" times " );
+		System.out.println("Ratio: "+r);
 	}
 }
