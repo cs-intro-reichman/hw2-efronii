@@ -20,7 +20,7 @@ public class Cheers {
                                 }
                         System.out.println("Give me "+spel+ " "+name1.charAt(i)+": "+ name1.charAt(i)+"!");
                 }
-                for (int i =0 ; i<name1.length();i++){
+                for (int i =0 ; i<it;i++){
                         System.out.println(name1+" ! ! !");
                 }
 

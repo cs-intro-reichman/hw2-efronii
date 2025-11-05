@@ -3,10 +3,13 @@ public class Collatz {
 	public static void main(String args[]) {
 	    // Replace this comment with your code
 		int num = Integer.parseInt(args[0]);
-		int t = 1;
-		while(num!=1){
+		int t = 0;
+		while(num!=0){
 			System.out.print(num+" ");
 			t++;
+			if(num==1){
+				num=0;
+			}
 			if(num%2==0){
 				num=num/2;
 			}else{

@@ -14,19 +14,18 @@ public class CalcPi {
 		//System.out.println(numh + " "+ minutesToAdd +"  "+ numm);
 		//System.out.println((numh + (minutesToAdd/60))%24 +":"+ (numm+ minutesToAdd%60)%60);
 		int lim = Integer.parseInt(args[0]);
-		double pii =0;
 		double pi =0;
 		boolean bool = true;
-		for(int i=3;i<=lim;i+=2){
+		for(int i=1;i<=lim;i+=2){
 			if(bool==true){
-				pii += 1.0/i;
+				pi += 1.0/i;
 			}else{
-				pi-=1.0/i;
+				pi -=1.0/i;
 			}
 			bool = !bool;
 		}
 		//System.out.println(pi+pii);
 		System.out.println("pi according to Java: "+Math.PI);
-		System.out.println("pi, approximated: "+(1-(pi+pii))*4);
+		System.out.println("pi, approximated: "+(pi*4));
 	}
 }

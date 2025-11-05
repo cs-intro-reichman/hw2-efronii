@@ -18,3 +18,4 @@ public  class  TestRandom {
 		System.out.println("Ratio: "+r);
 	}
 }
+
