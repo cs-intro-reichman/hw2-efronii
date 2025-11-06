@@ -19,11 +19,11 @@ public class Cheers {
                                 }else{
                                         spel="a";
                                 }
-                        System.out.println("Give me "+spel+ " "+name1.charAt(i)+": "+ name1.charAt(i)+"!");
+                        System.out.println("Give me "+spel+ "  "+name1.charAt(i)+": "+ name1.charAt(i)+"!");
                 }
                 System.out.println("What does that spell?");
                 for (int i =0 ; i<it;i++){
-                        System.out.println(name1+" ! ! !");
+                        System.out.println(name1+"!!!");
                 }
 
 
