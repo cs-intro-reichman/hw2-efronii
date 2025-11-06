@@ -10,6 +10,7 @@ public class Cheers {
         public static void main(String[] args) {
 	    // Replace this comment with your code
                 String name1 = args[0];
+                name1= name1.toUpperCase();
                 String spel ="";
                 int it = Integer.parseInt(args[1]);
                 for (int i =0 ; i<name1.length();i++){

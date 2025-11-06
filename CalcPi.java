@@ -16,11 +16,11 @@ public class CalcPi {
 		int lim = Integer.parseInt(args[0]);
 		double pi =0;
 		boolean bool = true;
-		for(int i=1;i<=lim;i+=2){
+		for(int i=0;i<lim;i++){
 			if(bool==true){
-				pi += 1.0/i;
+				pi += 1.0/(2*i+1);
 			}else{
-				pi -=1.0/i;
+				pi -=1.0/(2*i+1);
 			}
 			bool = !bool;
 		}
